@@ -1,0 +1,96 @@
+
+h1{
+    background-color: gray;
+}
+body{
+    background-color: rgba(248, 250, 227, 0.938);
+    margin: 0;
+}
+footer{
+    font-weight: 1000;
+    text-align: center;
+    color: blue;
+    background-color: wheat;
+    height: 50px;
+    border: 5px outset burlywood;
+    padding-top: 30px;
+    font-weight: 500px;
+}
+.about{
+    display: flex;
+    justify-content: center;  
+    background-color: blue;
+    position: sticky;
+    align-items: center;
+    top: 0;  
+}
+.about ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px; 
+}
+.about ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.about ul li a{
+    text-decoration: none;
+    color: bisque;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.about ul li a:hover{
+    background-color: blanchedalmond;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+header{
+    margin: 0px auto;
+    text-align: center;
+    padding: 8px;
+    border: 4px outset gold;
+    height: 35px;
+}
+.boldname{
+    text-align: center;
+    text-shadow: 10px 4px 9px gold;
+}
+.maincontent{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    border: 4px rgb(38, 185, 161) groove;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+#conclusion{
+    font-family: sans-serif;
+    font-size: 1.7em;
+    color: darkolivegreen;
+    font-weight: 700;
+    font-style: oblique;
+}
+a{
+    text-decoration: none;
+}
+span{
+    font-weight: 700;
+    text-transform: capitalize;
+}
+a:hover{
+    color: rgb(187, 24, 24);
+}
+.footer{
+    word-spacing: 2em;
+    vertical-align: middle;
+    font-size: larger;
+}
+h4{
+    cursor: help;
+}
+
+img{
+    border-radius: 50%;
+}
